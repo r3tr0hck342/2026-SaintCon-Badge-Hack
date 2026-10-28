@@ -1,0 +1,123 @@
+Using PICO_SDK_PATH from environment ('/home/r3tr0/tools/pico-sdk')
+PICO_SDK_PATH is /home/r3tr0/tools/pico-sdk
+Target board (PICO_BOARD) is 'pico2'.
+Using board configuration from /home/r3tr0/tools/pico-sdk/src/boards/include/boards/pico2.h
+Pico Platform (PICO_PLATFORM) is 'rp2350-arm-s'.
+-- Defaulting build type to 'Release' since not specified.
+Defaulting compiler (PICO_COMPILER) to 'pico_arm_cortex_m33_gcc' since not specified.
+Configuring toolchain based on PICO_COMPILER 'pico_arm_cortex_m33_gcc'
+Defaulting PICO_GCC_TRIPLE to 'arm-none-eabi'
+-- The C compiler identification is GNU 16.2.0
+-- The CXX compiler identification is GNU 16.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /usr/bin/arm-none-eabi-gcc
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/arm-none-eabi-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/arm-none-eabi-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+Build type is Release
+Using PICOTOOL_FETCH_FROM_GIT_PATH from environment ('/home/r3tr0/tools')
+Using picotool from /home/r3tr0/.local/bin/picotool
+-- Found Python3: /home/r3tr0/.local/share/mise/installs/python/latest/bin/python3.15 (found version "3.15.1") found components: Interpreter
+TinyUSB available at /home/r3tr0/tools/pico-sdk/lib/tinyusb/hw/bsp/rp2040; enabling build support for USB.
+Using PICOTOOL_FETCH_FROM_GIT_PATH from environment ('/home/r3tr0/tools')
+-- Configuring done (0.9s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/r3tr0/Projects/REABadge/tools/plumwriter/build
+[  1%] Building ASM object pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.o
+[  2%] Building C object CMakeFiles/plumwriter.dir/main.c.o
+[  3%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
+[  4%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/rp2350/pico_platform/platform.c.o
+[  5%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+[  6%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/rp2_common/pico_platform_common/common.c.o
+[  7%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/common/hardware_claim/claim.c.o
+[  9%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+[ 10%] Linking ASM executable bs2_default.elf
+[ 11%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+[ 12%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+[ 13%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+[ 13%] Built target bs2_default
+[ 14%] Building ASM object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
+[ 15%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/common/pico_sync/sem.c.o
+[ 17%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/common/pico_sync/lock_core.c.o
+[ 18%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/common/pico_sync/mutex.c.o
+[ 19%] Generating bs2_default.bin
+[ 20%] Generating bs2_default_padded_checksummed.S
+[ 21%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/common/pico_sync/critical_section.c.o
+[ 22%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/common/pico_time/time.c.o
+[ 23%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/common/pico_time/timeout_helper.c.o
+[ 25%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+[ 26%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/common/pico_util/datetime.c.o
+[ 27%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/common/pico_util/pheap.c.o
+[ 28%] Building ASM object pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.o
+[ 29%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/common/pico_util/queue.c.o
+[ 30%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
+[ 30%] Built target bs2_default_library
+[ 31%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+[ 32%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+[ 34%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
+[ 35%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
+[ 36%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+[ 37%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+[ 38%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
+[ 39%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
+[ 40%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/rp2_common/pico_flash/flash.c.o
+[ 42%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+[ 43%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+[ 44%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/rp2_common/hardware_divider/divider.c.o
+[ 45%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+[ 46%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+[ 48%] Building ASM object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
+[ 47%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
+[ 50%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.o
+[ 51%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/rp2_common/pico_double/double_math.c.o
+[ 52%] Building ASM object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.S.o
+[ 53%] Building ASM object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/rp2_common/pico_double/double_sci_m33.S.o
+[ 54%] Building ASM object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/rp2_common/pico_double/double_fma_dcp.S.o
+[ 55%] Building ASM object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/rp2_common/pico_double/double_conv_m33.S.o
+[ 56%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/rp2_common/pico_float/float_math.c.o
+[ 57%] Building ASM object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/rp2_common/pico_float/float_common_m33.S.o
+[ 59%] Building ASM object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.S.o
+[ 60%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
+[ 61%] Building ASM object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.S.o
+[ 62%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
+[ 63%] Building CXX object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
+[ 64%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+[ 65%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+[ 67%] Building ASM object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
+[ 68%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+[ 69%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+[ 70%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
+[ 71%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
+[ 72%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
+[ 73%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
+[ 75%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
+[ 76%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o
+[ 77%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+[ 78%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
+[ 79%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+[ 80%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
+[ 82%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
+[ 82%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
+[ 84%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
+[ 85%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
+[ 86%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
+[ 87%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
+[ 88%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
+[ 89%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
+[ 90%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
+[ 92%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
+[ 93%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
+[ 94%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
+[ 95%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/lib/tinyusb/src/tusb.c.o
+[ 96%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
+[ 97%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
+[ 98%] Building C object CMakeFiles/plumwriter.dir/home/r3tr0/tools/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o
+[100%] Linking CXX executable plumwriter.elf
+[100%] Built target plumwriter

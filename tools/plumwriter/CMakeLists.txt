@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 3.13)
+set(PICO_BOARD pico2)
+set(PICO_PLATFORM rp2350-arm-s)
+include($ENV{PICO_SDK_PATH}/external/pico_sdk_import.cmake)
+project(plumwriter C CXX ASM)
+pico_sdk_init()
+add_executable(plumwriter main.c)
+target_link_libraries(plumwriter pico_stdlib hardware_i2c)
+# Runs entirely from SRAM: picotool loads it, the badge's flash firmware is never touched.
+pico_set_binary_type(plumwriter no_flash)
+pico_enable_stdio_usb(plumwriter 1)
+pico_enable_stdio_uart(plumwriter 0)
+pico_add_extra_outputs(plumwriter)
