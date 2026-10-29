@@ -1,0 +1,9 @@
+# Python virtualenv — machine-specific, rebuild with: python3 -m venv .venv && .venv/bin/pip install -r requirements.txt  (see SETUP.md)
+.venv/
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Generated CMake build tree for tools/plumwriter (source + prebuilt .uf2 are kept; this is throwaway)
+tools/plumwriter/build/
