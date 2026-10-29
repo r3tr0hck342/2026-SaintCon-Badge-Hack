@@ -1,4 +1,4 @@
-# REABadge — Station Protocol Trust Model: Findings for Organizers
+# 2026 SaintCon Badge Hack — Station Protocol Trust Model: Findings for Organizers
 
 **Audience:** the badge/CTF organizers and infrastructure maintainers.
 **Purpose:** document the trust assumptions in the badge ↔ station link so the scoring

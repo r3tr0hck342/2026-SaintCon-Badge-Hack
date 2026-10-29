@@ -1,4 +1,4 @@
-# REABadge firmware analysis
+# 2026 SaintCon Badge Hack — firmware analysis
 
 **Target:** `fw_dump/flash.bin` (RP2350 / Cortex-M33, raw ARMv7-M image, base `0x10000000`)
 SHA-256 `37ee8a7e3f256ff92f115e830acb147439ed3cca07f37f0b0e82160069b298fd`

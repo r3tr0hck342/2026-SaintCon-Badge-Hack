@@ -1,4 +1,4 @@
-# Python packages for the REABadge scripts. Create the venv with:
+# Python packages for the 2026 SaintCon Badge Hack scripts. Create the venv with:
 #   python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
 pyserial==3.5        # badge USB console: scripts/badgectl.py, scripts/cargobot.py
 capstone==5.0.9      # Thumb disassembly: scripts/dis.py and the patch-site sweeps

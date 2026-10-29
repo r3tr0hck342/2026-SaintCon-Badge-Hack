@@ -1,4 +1,4 @@
-# REABadge — Reverse-Engineering a Conference CTF Badge with an AI Agent
+# 2026 SaintCon Badge Hack — Reverse-Engineering a Conference CTF Badge with an AI Agent
 
 **Target:** conference CTF badge firmware, Raspberry Pi RP2350 / Pico 2
 (Cortex-M33, ARMv7E-M, 4 MB flash), C/C++ on the pico-sdk.

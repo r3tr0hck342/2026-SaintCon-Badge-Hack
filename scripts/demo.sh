@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# REABadge submission demo — recovers every static result from the firmware image.
+# 2026 SaintCon Badge Hack submission demo — recovers every static result from the firmware image.
 # No hardware, no firmware execution. Safe to run anywhere Python 3 is installed.
 #
 #   bash scripts/demo.sh [path/to/flash.bin]

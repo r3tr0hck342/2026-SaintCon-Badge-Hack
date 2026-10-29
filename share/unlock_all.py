@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Unlock all 30 achievements on the REABadge conference badge.
+"""Unlock all 30 achievements on the 2026 SaintCon conference badge.
 
 Plug the badge in over USB, then run:
 
@@ -72,7 +72,7 @@ def send(ser, line, wait):
 
 
 def main():
-    ap = argparse.ArgumentParser(description='Unlock all 30 REABadge achievements over USB serial.')
+    ap = argparse.ArgumentParser(description='Unlock all 30 SaintCon badge achievements over USB serial.')
     ap.add_argument('--port', help='serial port (default: auto-detect the badge)')
     ap.add_argument('--list', action='store_true', help='print the codes and exit')
     ap.add_argument('--delay', type=float, default=0.4, help='seconds to wait for each reply (default 0.4)')

@@ -1,11 +1,11 @@
-# REABadge setup on a new computer
+# 2026 SaintCon Badge Hack — setup on a new computer
 
 How to get the scripts and the cargo bot running from a copy of this folder (for example from the USB drive).
 The `.venv` folder does not copy between machines, so you build a fresh one.
 
 ## 1. Install Python packages (`.venv`)
 
-Run these in the `REABadge` folder. Python 3.10 or newer works; this project was built with 3.12.
+Run these in the project folder (`2026-SaintCon-Badge-Hack`). Python 3.10 or newer works; this project was built with 3.12.
 
 **Linux / macOS**
 ```sh
@@ -87,7 +87,7 @@ writes and verifies the 4 MB flash, then runs `verify`. The EEPROM (achievements
 
 ## Where everything else is
 
-- `SUBMISSION.md` and `REABadge-Teardown.html`: the write-up for the talk.
+- `SUBMISSION.md` and `2026-SaintCon-Badge-Hack-Teardown.html`: the write-up for the talk.
 - `FINDINGS.md`: every address, patch and result.
 - `AGENTS.md`: how to continue the reverse engineering (Ghidra/REA setup, backup/restore details).
 - `SECURITY_NOTES.md`: notes for the organizers on the station protocol.

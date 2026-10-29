@@ -1,4 +1,4 @@
-# AGENTS.md — REABadge reverse-engineering
+# AGENTS.md — 2026 SaintCon Badge Hack reverse-engineering
 
 Guidance for an AI coding agent picking up this work on another machine. Read
 `FINDINGS.md` first for results; this file is about *how* to reproduce and continue.
@@ -21,7 +21,7 @@ CTF layer: a `FLAG` command (3 real encoded flags + 1 plaintext decoy, `{Rusty_�
 - `fw_dump/strings.txt`, `INDEX.HTM`, `INFO_UF2.TXT` — UF2 bootloader metadata + raw strings.
 - `scripts/badge.py` — the core reproduction script (see below).
 - `scripts/hunt*.py`, `scripts/pool*.txt` — unlock-code brute-force passes + word pools.
-- `submission.html` — presentation page source (published as the "REABadge Teardown" artifact); `REABadge-Teardown.html`
+- `submission.html` — presentation page source (published as the "2026 SaintCon Badge Hack" artifact); `2026-SaintCon-Badge-Hack-Teardown.html`
   is the standalone copy to hand out — regenerate with `python3 -I scripts/make_standalone.py` after editing.
 - `scripts/patch_infinite.py` — fuel/hull/crew-loss patches (checks original bytes). `scripts/patch_btn.py` +
   `tools/btninject/{hook.c,build.sh}` — console hook (BTN/PEEK/PAN/WHERE/CREW) in unused flash at `0x10180000`.

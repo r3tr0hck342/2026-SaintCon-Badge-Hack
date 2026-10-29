@@ -1,4 +1,4 @@
-# REABadge: unlock all achievements
+# 2026 SaintCon Badge Hack: unlock all achievements
 
 Unlocks all 30 achievements on the badge by typing the `UNLOCK` codes into its USB console for you.
 

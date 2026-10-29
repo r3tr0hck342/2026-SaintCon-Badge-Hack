@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Back up, verify and restore the REABadge (RP2350 badge, EEPROM on I2C0 @ 0x50).
+"""Back up, verify and restore the 2026 SaintCon badge (RP2350, EEPROM on I2C0 @ 0x50).
 
 Run with the project venv:  .venv/bin/python -I scripts/badgectl.py <command>
 
